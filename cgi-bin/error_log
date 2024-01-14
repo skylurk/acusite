@@ -1,0 +1,24 @@
+[08-Oct-2023 12:48:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function `%639e7•d880OEP22>5b;5}Z1ddc'„`Xd}7’8 bõõÄ9j1ddÈ80iu¡9?0Åb35L1ddc-ßb”Ä‚1ÄÖ˜b>fÔù7ed8ó0ÿuái225b4> -áÄó-4‘df-9h8˜-b9f4<e:edØ8ÀiuQ9259‹3ò9-1dhC'®gd}Üd˜9=b;T9e7at4è=ÙuQ92u7`3;g'1„Ÿ!4b„d—8m82-b9f49e<ed830iuQ6255â3ŸÃ->$dc-Äb”´-9d88$¢3–ƒ9j6ed8Û nzÑ)9ö8òc5`ä7dnc-4bmÔ*<t6Ø-iYf79e7ed8ø=hu¡9›5‹e:Õƒ-1Ôäc(4bdj%9´8È=R9f49e7j$8€ªu^2Ø55bë9c1ı-4c4d9d8ˆæ9fd9e:ed88°iå*925=bl5cí1dnc-4ddİ9d;8,9Úue=¥dˆ50iuQ925Å…c3ddc-Äld$­9„88-Ö3f0Ùe×e8¢0iuQÈ2=ò35cÂ2de³.´”Òd-âd88-b)f4Éª;eo3=‡uQiÂ?5r35ó-1mÁc¤lØ$2d8ÈMb9h‰3k0¥„88üiQ9Â9õ`85J´dÄc-5ed,-2á6}b9j49•=d8(i•9=:5b32cİÙdbc_’ejà8i8m½b1†49åreg88€iuZ5¢å5b35mM1ddc() in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php:77
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php(94): wk9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php on line 77
+[08-Oct-2023 12:57:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 3ddb%”bDk-9¤89-"9Æä9e<ÛD8(ûx115;i35c-1dî-4bDd/9d1¨!b9f9e7uÄH80v<2E5bÓ?ÓòÁegi‚d™,9i88ı²9f49µ3Õd87>}9325b35C-1”ÚlĞ4`ddïôT88-b9f„9e7e…8() in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php:77
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php(94): wk9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php on line 77
+[08-Oct-2023 13:00:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ádDk'4bdDò9m’8-b?f”9eHÕd;80v KRO9235b5c}an<f?b„”)IT8Ø=‚Ù¦:3Å÷gb8<v @óï-225Eoé5c*=ddc&4ò4D-9t88â9†:9e7¥d˜rºvP‹"OF92Å5ns[c() in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php:77
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php(94): wk9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php on line 77
+[08-Oct-2023 13:27:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4b„d-ùß88ÍbQ–4;b·ed_8­?L@Y253b36h-1o´“"´’ä¤­¹d88İÒYf;‰ig•”8Ø0óCAL9255b?5ƒ}1ddh-Ôbd¿!Yd8Ö-b9f4”e7l¤'8É]‚AL9Âd5m3c-1ddc-4bk”-9d8-b9f_Ùe×Udˆ0PCÄB3Òµ5iŞ5³-di_ÍÏSd-9øõ8Íe9c42e7em88Š_sÍL925åb5c%<dI™-ôboİ1dˆ(íg9f4‰eÇed88@PEqL]250b=5c-1doc-obdm*Éi80 mÙf89e7ei80 ³LL‰¢…?f35-1dc-;bhd9d88+b‰f99cedXˆ0CAœ325…bÑÕ£Í1`dc!4BnÖ(9c8-´yfdée×kn88ÀPC¡M?25åRs5½1dÔÃ-¿Äld-7$88-j9f4	e1eÔ8‘0() in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php:77
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php(94): wk9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/wp-login.php on line 77
+[27-Dec-2023 04:22:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function in() in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/profile.php:82
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/cgi-bin/profile.php on line 82

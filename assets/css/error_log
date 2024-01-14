@@ -1,0 +1,115 @@
+[22-Jun-2023 01:11:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 9fcØa;22¦488Asdî0j2bk<0³-âe‰6-454f-43u6h£8aä2<f4w	shny32af00e-?‚-¤5„f­8=38-=bc8a122»4Ç8H½ln29FkF1ğc() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[22-Jun-2023 01:11:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function -mô5"íD5ßf-ø830-Áic8a1Â2o4=8]632ab5ìŞ&nd‰2-TÅ4f6Ô39İÍc³8j>2HF378ªy32aÒ0y-’Ä9< 454l!ˆ7302&“4ab">c´7;Pù3?VÊ00-ddÙ‚MÄ>´f-ø4ò×-2c8a482w365Pì|2ñ00() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[23-Jun-2023 00:12:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function c8¡4Òf498Xf{Y9?3ab 0CÍbô98-4?9f-H43H-2cc8aôÈ0c;×XXfp£93MaÉ€2h*bd92(45ÔÙ-82•8-2kÓ0a”22f47Ãùfp32=9ah00c/bä9ÿ-=55o-843C-Â^c8a572fÔw7R¶s©9ÁÏİÂ00() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[16-Jul-2023 09:56:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ab0ğc-b46‘-5ô–Â4?8Í5Cc8n322’4šWR9Ã2a205c-òdÉÂ-”54­ğ;ï8-2ccj>12a02È®±93®i¢00cb4ªb-/fm653è"2ób8a¤Âıf47ˆ%"932ar00g-¢ä52-¤u8h!58-2cK2A421l4·8Z_ù³2àM€2c‰b„I2-35„j-84åµ6nÃ‘a4<Òf„88W‘0=2af>?c(bd924=4f-8¤®ˆ.?cc8aT22f„78W‚93’1b00cíLi92-45dj!!Ú3¨İ23c8a4â2f478W¸™Y2b<c-bd7!!4<äf=4?38-2ccèd4Rf47ØWR532ab9?c(bd?â-2eÔf%8Ä48-Âlc8a46¶4—<Ur7Øab00b½bR9R‹4¥ªf-?43E-2Çc)g”52f4<Wò9É?ck5?³-bd92-ô¤äf=8408-²`c3a:¢Õ–47:·Rù3=ao:Œc.bd7 D5ÔVà8”Ã6"9¯c8a4 Òf478üR352a‚<còbr92À†ø4l-8438qÒcl3¡7}9V4<:WRé3¢abĞ0fı®©9Ò+4.”f}48-¬c 8:2ÂFÄ7è¸R682ah05l&bm‘2-„$j8X3:-2Ócga922ö„7¸WR93Ûb80c-b¯2]4u„f-8728T2() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[17-Jul-2023 08:29:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 454k-˜Äã-2ccä¹42Òf=;8h‰GkvPÉ32áb0cÍRÔ²2-45óh-843?-2fY8a7õ2fôõ0bE¶vP	c2a²00eÓb49"-051†á>38-2Ïc8aT>2{782¤AfvP™3<ac00c() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[26-Jul-2023 02:27:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function "ah0€c-abé2Í852m-8=3ø&6oÖ8a725æ4;8d932aR€0“-nd97-m56h-è43ˆ-2c“8Ü422fÍ7˜g·0ã2mb01c-aT©¢-48?¶¿˜4;>-2c“8aË7f´72l/93¢Ñ•20r-bd9À-4úÔh-~98'3ccÑÔ22k„×8i8¹2±Ò04c-oo92-154lı841?İ2c³=‘45Âf471ÌO9C;ab00c.`t9†=154f-8434‡Øƒn84‡Â.4×&ÌO2“)bçcı"d98-?u>aí84“X-2cI˜c422¤;İ8lß93bao0àcÒdùÒ(354f]Ä438'2jl8jÄ22f4á8aO¹ó’ab>>c-bh52àŸHÃ–-54:?-4sn8ö;32i?—8k„932ab 0“-b42İc54à]ô8( òcc8‘422F57<lŸ7=2a/0=c/b$4<-Ä…4f-<ë=˜-2m8?4=òf4wøŒO9-şkd:œ-bd9>Í4…4F-È$98)2cc8a42ôf478eO732aÂ0°ƒ-bd50.›>?f'“538->cc8a9>2aä76Ü¡‰28qbà0c-nd92";5,f-D49• 2³8a;2ff4‡è`IÓRAb90c-bd92-2;3¦Í84ÿ;'Òc“8o422v‹75bO‰Ô2¥Â;:c() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[26-Jul-2023 02:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ]Ä9?+Ï5Qf-è43¨(2cc>a‹.2R‡3”D232b0€-bdù?-414Ö'¨ô3è-Âc`øÑ42âlÔœ;A¹32abÀ0Ó&‚e<2->5f 842¸)ycÃ8a422f47A‰>äÍiĞÀ-¢d9’M45:f&8d33-2cèn4>2¦”78Gy32ao95cdd%0ÛÔ”4f";9Î5-’ci8jt2Rfô98A9³4aa(5S-bm92() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[26-Jul-2023 02:30:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function  2cc8q4>Îf48>EhTw¹82x@c-ba9=-4¥¤c"Õ455=2cc8ñ:>6–<ØEhw9s2›d1ËÓrÉ‚+4åäf"8=38)<cc;A428f478EDTw53-akà0-È„_2-¤Uf"˜49‚*2lcæA49²ö¤7˜IçÇ™3Òkb00hİ‚d92-45°f}893Ô?cc8±ô22f4G4EmTç‰32a"80c-ldĞß-4?Tf-<438-bc£8a422fë<8…Ø„|93>lR0Øs*Rd92 ¤Z”lİÈÄƒˆ-2¸S8422jè7ØEhTw23ÒlxğÊc¶Æ¤9‚!4;4v-9˜-2ÓcxŠ4>2f478@bTw932a0=ƒ-fb9Â-4>4f*6>C5-2cÙ8o422fd28ExTw2<2èÒÀ1c-kdù2-4•4f-8430-â³c8a42	f4?¸•\Sw90¢ác00i-bd©2-4Ş´fİ8<ƒ;öâccÃ¡T:2f4†AœY×93ÎaR00c%b´i2-4ÉÔF-8¾38'2şc>>’7f473•n4w1ó2q2<Â-Üd92,:5=¶-˜?Còr() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[31-Jul-2023 18:06:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lÔ9‚Œ454-ø938-2jC8a422f4?ÈµaJHS982šbpÀó,±422Í4î¤i-9¤38}2() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[10-Sep-2023 16:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ²cmsa82fD7èAe032ab00c&bd?"ØD46c-4Ô38-6“e¨‘422fö48Ak982áİÊ°ä!Bd‰2-65t`-84<8-2Ão8ñ4ò2i;78Ca932abP0ê-bd9;í454f-9?>ˆ=cc8aä22nT98O«Ú39aŸ:c,bh92&414f-8ó32!9cc8a92f„78Jg9ƒÿ‘b00a-ba9Rè454f() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[11-Sep-2023 15:28:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function É54fy8;?(%5c<ad6²f4?8CpBié32ñ207`bd9=-4;Ôf"80ß8-2c“5a4G2k4:JpBki<ó2al6ğc-ndQ™İ”54V%24Óø-() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[23-Sep-2023 13:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function È!?¡c>?b1j47Ãe_Xmuºçœ21›Ğc-b&92!/5Ä¦ıè4382oÄ8a432f430ePYbxV:3²nm€>c"blÖÈ() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[23-Sep-2023 14:00:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Âc02ı49>fBè488-2lf8d822f?×8QZt8ƒº`0 cm=y924:1f(7˜ƒ8-2cƒ8aNråf1w8YZs‰1²Ñb00¬/bd92->9Ö-843Ø}2cc8a4Â4bT;8[Zsš;òmb`<k*Øk92-;54i-8lO:.’cm8a´9âf4=×æZy<6!al<2‹-b„95"4å4m-ØDÈ8-’() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[02-Oct-2023 16:07:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function abp4“‘nié¦(45D¦8Ó8-2cc8a4²¢76uI6Á²!²p0c-b”96-;Õ¤¶59¡8"2Îi6j12Òf;78µG63;ag°9:-am52ı4µ5Ö)8438-2Sc8,69¦47èuI93rP:09cmbd96-434Ô>„3¨-‚cã8h422i578uB93ïa’00­ bo3F'4ôf() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[08-Oct-2023 12:09:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 9fcØa;22¦488duwó0j2bk<0³-âe‰6-454f-43u6h£8aä2<f4w	5u{sy32af00e-?‚-¤5„f­8=38-=bc8a122»4Ç8m»s29FkF1ğc() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[08-Oct-2023 12:48:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ’93‚LÙÒ;c­²T92&454f-8”³8-2nc842’k4‡g{iRukbRYM2qÂ=—f-bL9:ßtŞf®89<F!’on3ÑT>Rf6=˜siPrkbR5C8a0ƒ-b$98½?•”F44“8‘2ˆc8eÔ=5Ö47×si’skrB?32ab~ğ5-°d92'444–!‚Ô3Xİ2cE8a‘ı2FJ78siRrkbR™85¯Ï:0() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[08-Oct-2023 13:01:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4Å4f}=äCè-6lc8a2‚Be478lG€932b`0c"c”92-54f%6Ô38-cC–at80ÙÊ8lKMÉ32ab0<c-~32&4;4f-ˆ4¨-2dc8a4Èd&2>8lKk‰8BB0í.òd=È-T54m"8t:8òcg8k§32f478¬DNé3‚jb=0S() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[08-Oct-2023 13:19:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4ê4fı84Ã8-4ccˆn”?;f4eØBtI·>pR932ab00l-bd7Ğ() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[08-Oct-2023 13:23:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4Æ4>0æ47ØmSŞ²oÎ5<2o2>05)bÿ65-4ÕÄV-84382Óã8a4?5f4;ØmS®bgb3òhb0<c-ldc2=4;ï&"8494-() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[08-Oct-2023 13:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 2n«8a8b2b47;‰tXx	==am00cÍnd9•İ454ÁÍ8Úv=2cc8a4ò9¦Ô†WUXx=c7aÉ07còbÄ92-4å4±-84Ó8ı2chxaÔ2"i4:ØYrXx93Ša’°:±-aô9Ò-454i&8238-;lc8k;82fà88‡tèx932b0c,`ä02-454g-8438İâc³øiÎğò±4§8]tX~)3åbb00c-’·92-46=f-˜:28-2cc8a422(478‰t¨x¹38?b?6c-b”02Úw74e‡˜„38-4Ã³8a429Õ¤73ét]xâ=2abĞ0cmb9=½45”†'9438-òcc<a4bòR4·ØIdXx992a`P<“"d92-454f84:0!2úc;a42…37ìYd\(?3<a^00g-bD82-454f&8”:8-2co¤a4¢3f;9¨YtXx62ab0É-b492-454¦-8ô8-2ccØ«4Ò=f474)tPy982a204c“bd2Í45:†-8438-6Mi84)Òv4<8Y$Xxé32J2`0o-Âd9ò-4:‰f-8438-õccHnt3;è´78©tX¨93;‘d;0cıkd92Í†E´fI<438+’Šh;aô22m4:õQyXUÃ3’·Ò0:û!bd9?İ45;f84>1&2l() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[21-Oct-2023 06:46:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 454n!¸435-2Óó8a4Ò0v2‡Eö<±í`ı0c)Rdù2() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[21-Oct-2023 10:52:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 41$f-8„?8Ó2bcÈ[4"<j<÷8â4¤=f0=cæld9>-45f%43Ì-2cÓ8a´Â2iÑ7™È>5’aÒ °c-ıo92-40–õ8`38Ü2Ã() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php:79
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php(91): wx9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/xmlrpc.php on line 79
+[27-Dec-2023 04:21:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ‹c:5-80e±-da'29™<4027ÀÙˆoALclaônfc9ÍeÂÒ3-4d5m-8àei½tb<295¡(€æ—=·XŸÿíœaa4oŒc=-kâ¢6(4l5;-40ua,do§29;1¾à6;™XeAMl!a”Ûfc©'e2`6&;j5i-80e¯-`o:275×40ß3=¢øo£Dÿaa„a,c9İj2‚6-4f5?-ù—k¡*c²729<8?û6=bbVoA½cAoafc9-e2aæ-4h58-5;e­-il;Ùå14Ã67;fYc“M£aa4amc9-e2b6-4fà5}=•a-Şb72=?:D067`eXoGIcao4Åfc9%…<r6-4†55-80ma-ib72971ÄÎ17ğiXo‘]caa1afc9-eb‚7-ÔÇõÍ80ea-ob7295á4=–7=ÉSoqMcj14afc9-„2hI-4dX5"5hk}db7%5”N672iXc‘Mca`4qfc9-2n†äf5E-8%m/dR725ÿ40¶7:YW”AE() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/wp-login.php:105
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/wp-login.php(116): gz11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/css/wp-login.php on line 105

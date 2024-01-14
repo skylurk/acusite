@@ -1,0 +1,51 @@
+[08-Oct-2023 13:15:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cs() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/wp-login.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/wp-login.php on line 4
+[15-Dec-2023 16:58:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 8=u7*s4c9589`5 8QHÈma[() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86
+[15-Dec-2023 17:01:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 6¿ócÉ179¾50øW0db<84-6›…34ycf­8Ëe1­ç}„	19o5ĞxX-4dbb299-1†e3-Éi 8Æe‘-6c™18ù‘508R0?dbÎ"8$]6fiÃ××Oìl]8&e1-–?4cØ9ø08”04”‚Ÿ2846fe349c`-ş6eÑ(f>4£;82Š>0˜H64db|â¦4l6ie3&1Â³e-höe¶É>79±89o5;8x€Ïd§b2ñ4-6fe3(70iU-86eñ-6ìDc6Êè9n;08WITÄâk28Ô-6‡n3Mô3ce-8Öuá34c91HÉf50/R:Ädbl284'&fhœ!46fg-1¦e1"63=c9189a8;>X0ÔdÒb28$íÆoe3ıtI³e>˜áe7Ï8c9Ñ9j<@;X0<Õb²23=-6le8-4	cm-83k2¶34891ø9¡50xXı4”Â1(„-f8c3'4ce 86e‘ı6Ã;Uâ1X?‘1?1(04dbo2È;U6fÅó-4Êdcí8†Á.6>4…é;X=!08X“ddll278-6fÊ3.ä93e-5Ve3Â6S4¡2<(9!5€HX0?dmb23Ô-ÊfÕ3-„5xow86eL-¬34c0=29a50´˜°<dÂl’:T­6f3-49se-‡2e1 33ü9QX‰a50ˆXàÔ¤bbïˆ4.6mÅcı99ùeÛ8=KH634iñ8çe58X09d¢ÂB84-6¦i3-47cõí88e11æ“„c¹1µ9a6`ˆ¸07Ùbbr”;"*&e-Ä9e-\’e7-634h™ÑÈ9aeºÈ˜04Şbbè3!66e9() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86
+[15-Dec-2023 17:01:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4n189b?02p@Økˆ04dÂc284(<f³j"46cm ˆ51-63<c6==9aÅ08DLWk7 4”bÒ84­6»e8-~ù°`-Hğn1-=29i<È9a50ø„LR‹x04d’ò2;4í7†e3-ä7ce-y7e1-63ìc¤199a•Ğ8LSkx04abb26n/7heó29ci->6es'8“„c91Â9a508zÌXkˆ=>¤bb2è-ëffóä9r-Øæb©í68´c‰?8êlU=TrKh»Œ0DdkËA8z-;ces-”9úu-Í6Õñ ¦¤i918 e505ÄìX‡x:ùdbb2H´Í6No3O4élh7Æ53¸634mÛ?8=a=:8tBX‹(04Ä™h;Øé®Fme3-D)ck-8:Ÿ;-š34c51ˆ0a5<ÂDLXax04”bb2¨9'6f»3=¤9le-:=e1-ÂÃi4H1‘50˜tL_kx04ÔÂbâ8ø6fd3¢89ce!6e1/634`™6x9a5=8tLè–x04dbh84”-6ÆeÕ-49ce-56eÏ-6;¤c9<˜9a508t\¦„¤db2Ä"6f%?/t=cå-x3e1*634c>18yá7>7PLSkx>4©bb284]¦feã-„9g-è;-16”ƒ9=8‰v508tL(ky84d(2cô=6Uİ-17je!8Êe1-*É321˜y`508tKX»x04ob’274-6f3-49c() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86
+[15-Dec-2023 17:08:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lu() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/themes.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/themes.php on line 73
+[15-Dec-2023 17:08:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function lu() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/themes.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/themes.php on line 73
+[15-Dec-2023 17:12:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ca() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin.php:77
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin.php on line 77
+[15-Dec-2023 17:12:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 47³u-8;e1-æ34ã9aˆ9a2ğ8gSS;ob¢28?-æf3½?ù“e-865×-51Dl9:8şa50ÜÜXWà8d2o284 ?6e8%9ce86e1"674c9Í=9Ì?08¤ŸW°Äbb¹ˆ46fE3/49ce-66e-6ãŒc914õ1;Î8œSW0„´’bó-6feNİ4Ùfe`8feQŒ65Dc:š95î8,YW0td²b28-†fe5-ùlh.È6O4 ,C4e6Á8Y­5ØL3W04ÔbbÎ-ä-İfe3(h9³m.ø5e1!6() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86
+[15-Dec-2023 17:19:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Ø?Õ1$==4cyñÑÙ\:08p×Ö,Tm04dbÅ2Æ”->f3>³ƒe-8y•Q&:ó4 6Ìã9a85 GFlTl04ncl·84-6¶e3]$ihe`=0e<-6ÌybÙ1è9¡5ğø|G¶‚Të04´bn‰4() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86
+[27-Dec-2023 04:17:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 'Ø8e/34c9Ah1a:08ÇãyxjNB74ormb8:96kÀ-=9£h-19e:-;³4ÅyA8‰±8à8[SŞgNL<Ãi˜b2’-<v3ü43aµ-81i]6³9c9;Z9a%08XRÉ¸gNBĞ4¤²h284-6fk3]4Éeõ!86`1,Æ=4c9q80a?;˜÷Sy~nI04dÓb684-6fe5>y½58¥-634cùAÒ9n508·_YzmB64() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86
+[27-Dec-2023 04:23:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 9Ñø9a…ß8šc0×dÄf"8„ı:feãÍ49oµ-ü6%1-<8ËoÙİøVá708Z|Ğ4tbb464Ffe3î;yce-2deÁ-6:œ³é9ıIa0¶Zca4`Rb2è48f() in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php:86
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php(102): lh11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/admin-ajax.php on line 86

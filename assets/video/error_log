@@ -1,0 +1,101 @@
+[08-Oct-2023 12:49:50 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 12:54:41 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 12:58:16 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 13:00:21 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 13:02:54 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 13:06:38 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 13:16:55 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[08-Oct-2023 13:28:51 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[21-Oct-2023 06:46:49 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[21-Oct-2023 06:56:26 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:15:16 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:16:30 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:17:43 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:17:50 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:19:03 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:19:10 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[04-Nov-2023 22:20:24 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[16-Nov-2023 21:57:41 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[28-Nov-2023 20:04:04 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[28-Nov-2023 20:27:14 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php(1): gbiRe('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/boglictc.php on line 1
+[02-Jan-2024 23:55:57 UTC] PHP Notice:  Undefined offset: -1 in /home/roql1b9mmqnq/public_html/acuvera.com/assets/video/142c46e3d2852063a792eb46a8baa116.pl on line 93

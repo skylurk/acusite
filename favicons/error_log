@@ -1,0 +1,100 @@
+[09-Jul-2023 18:45:54 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 12:48:26 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 12:49:53 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 12:57:04 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 13:00:20 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 13:06:37 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 13:12:39 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[08-Oct-2023 13:28:53 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[21-Oct-2023 06:43:03 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[04-Nov-2023 22:11:53 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[04-Nov-2023 22:14:05 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[04-Nov-2023 22:17:45 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[04-Nov-2023 22:17:49 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[04-Nov-2023 22:19:04 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[04-Nov-2023 22:19:09 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[16-Nov-2023 21:57:42 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[16-Nov-2023 22:02:29 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[28-Nov-2023 20:16:38 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[28-Nov-2023 20:20:03 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php:1
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php(1): FHrlmFZT('/home/roql1b9mm...')
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/wzpdyffv.php on line 1
+[07-Jan-2024 17:48:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acb1-¤:ffÜ;A-2”e±b³103<e4pùÜŒBG=7Im?Ö1f() in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/ghfmmset.php:99
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/favicons/ghfmmset.php(108): yz11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/favicons/ghfmmset.php on line 99

@@ -1,0 +1,2 @@
+[15-Dec-2023 17:24:46 UTC] PHP Notice:  Undefined offset: -1 in /home/roql1b9mmqnq/public_html/acuvera.com/assets/imgs/09ddcb93734622296a964340d5f753e4.pl on line 55
+[15-Dec-2023 17:24:46 UTC] PHP Warning:  unlink(./09ddcb93734622296a964340d5f753e4.pl): No such file or directory in /home/roql1b9mmqnq/public_html/acuvera.com/assets/imgs/admin-ajax.php on line 42

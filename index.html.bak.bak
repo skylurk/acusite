@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1">
+
+    <title>Acuvera</title>
+    <meta name="description" content="We are Acuvera. We design and develop simple solutions to complex problems. An innovation studio based in Nairobi, Kenya.">
+
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#1d1d1b">
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/tailwind.css?">
+
+    <meta property="og:title" content="Acuvera - Designing &amp; Engineering simple solutions to complex problems.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="index.html">
+    <meta property="og:site_name" content="Acuvera - Designing &amp; Engineering simple solutions to complex problems.">
+
+    <meta property="og:description" content="We are Acuvera. We design and develop simple solutions to complex problems. An innovation studio based in Nairobi, Kenya.">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<style>
+        .contact-form {
+            padding-top: 20vh;
+        }
+	    /* --- Video Modal --- */
+
+.noscroll {
+    overflow: hidden;
+}
+
+.video-modal,
+.video-modal .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.video-modal {
+    z-index: 3000;
+    overflow: hidden;
+    position: fixed;
+    opacity: 0;
+    -webkit-transform: translate(500%, 0);
+    transform: translate(500%, 0);
+    -webkit-transition: -webkit-transform 0s linear 0s;
+    transition: transform 0s linear 0s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.video-modal .overlay {
+    z-index: 0;
+    background-color: rgba(33, 36, 46, .9);
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+
+.video-modal-content {
+    position: relative;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: calc(100% - 12em);
+    height: 0;
+    padding-top: calc((100% - 12em) * 0.5625);
+    margin: 0 auto;
+    overflow-y: visible;
+    background-color: #000;
+    z-index: 1;
+}
+
+
+/* Mobile */
+
+@media (max-width: 640px) {
+    .video-modal-content {
+        width: calc(100% - 1em);
+        padding-top: calc((100% - 1em) * 0.5625);
+        /* 16:9 calc */
+    }
+}
+
+
+/* modal close button */
+
+.close-video-modal {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: -55px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+
+/* iframe element stretch to fit */
+
+iframe#youtube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #111;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+/* show modal */
+
+.show-video-modal .video-modal {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.show-video-modal .video-modal .overlay {
+    opacity: 1;
+}
+
+.show-video-modal .video-modal-content {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+	    /* Button */
+
+a.btn.ho {
+    display: inline-block;
+    position: relative;
+    padding: 18px 32px;
+    margin: 20px 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    opacity: 1;
+    -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+}
+
+a.btn.ho:hover {
+    opacity: 1;
+    color: #4e50e8;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+
+    </style>
+    <style>
+  			.contact-form {
+  					padding-top: 20vh;
+  			}
+
+  		  #acuvera_vat_video {
+  		margin-top: 15%;
+  		    width: 60%;
+  		  max-width: 60%;
+  		  /* height: 0; */
+        height: calc(60vw * 0.563);
+  		  margin-left: auto;
+  		  margin-right: auto;
+  		box-shadow: rgba(0, 0, 0, 0.1470588) 0px 1px 0px, rgba(0, 0, 0, 0.127451) 0px 0px 8px, rgba(0, 0, 0, 0.4) 0px 30px 30px;
+  		  }
+
+  		  .vjs-poster {background-size: cover}
+
+  		    button {display: none;}
+          .site-footer {min-height: 10vh;}
+  	</style>
+  	<link rel='stylesheet' href='https://vjs.zencdn.net/5-unsafe/video-js.css'><link rel="stylesheet" href="./projects/style.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	    <script>
+        $(document).ready(function() {
+            /* Toggle Video Modal
+            -----------------------------------------*/
+            function toggle_video_modal() {
+                // Click on video thumbnail or link
+                $(".js-trigger-video-modal").on("click", function(e) {
+                    // prevent default behavior for a-tags, button tags, etc.
+                    e.preventDefault();
+                    // Grab the video ID from the element clicked
+                    var id = $(this).attr('data-youtube-id');
+                    // Autoplay when the modal appears
+                    // Note: this is intetnionally disabled on most mobile devices
+                    // If critical on mobile, then some alternate method is needed
+                    var autoplay = '?autoplay=1';
+                    // Don't show the 'Related Videos' view when the video ends
+                    var related_no = '&rel=0';
+                    // String the ID and param variables together
+                    var src = 'https://www.youtube.com/embed/' + id + autoplay + related_no;
+                    // Pass the YouTube video ID into the iframe template...
+                    // Set the source on the iframe to match the video ID
+                    $("#youtube").attr('src', src);
+                    // Add class to the body to visually reveal the modal
+                    $("body").addClass("show-video-modal noscroll");
+                });
+                // Close and Reset the Video Modal
+                function close_video_modal() {
+                    event.preventDefault();
+                    // re-hide the video modal
+                    $("body").removeClass("show-video-modal noscroll");
+                    // reset the source attribute for the iframe template, kills the video
+                    $("#youtube").attr('src', '');
+                }
+                // if the 'close' button/element, or the overlay are clicked
+                $('body').on('click', '.close-video-modal, .video-modal .overlay', function(event) {
+                    // call the close and reset function
+                    close_video_modal();
+                });
+                // if the ESC key is tapped
+                $('body').keyup(function(e) {
+                    // ESC key maps to keycode `27`
+                    if (e.keyCode == 27) {
+                        // call the close and reset function
+                        close_video_modal();
+                    }
+                });
+            }
+            toggle_video_modal();
+        });
+    </script>
+
+</head>
+
+<body onload="nameSections()">
+    <div id="app">
+
+
+
+        <site-container :navigation="[{&quot;url&quot;:&quot;https:\/\/acuvera.com&quot;}]" initial-style="black" initial-page="sections" initial-nav="" :initial-sections="[
+		{&quot;name&quot;:&quot;intro&quot;,&quot;column&quot;:16,&quot;hud&quot;:&quot;black&quot;,&quot;bind&quot;:{&quot;isFull&quot;:true,&quot;white&quot;:true,&quot;image&quot;:&quot;assets/imgs/hero.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/hero.jpg&quot;,&quot;title&quot;:&quot;We are Acuvera&quot;,&quot;sentence&quot;:&quot;Creating innovative electronic chain of custody systems using proprietary packaging technology.&quot;}},
+
+{&quot;name&quot;:&quot;intro&quot;,&quot;column&quot;:16,&quot;bind&quot;:{&quot;image&quot;:&quot;assets/imgs/usecase_dutyfree_img1.jpg&quot;}},
+{&quot;name&quot;:&quot;spacer&quot;,&quot;column&quot;:16,&quot;bind&quot;:{&quot;units&quot;:2}},
+
+    {&quot;name&quot;:&quot;header&quot;,&quot;column&quot;:16,&quot;bind&quot;:{&quot;title&quot;:&quot;Scroll down to see the use cases we are working on:&quot;,&quot;subtitle&quot;:&quot;Use Cases&quot;}},
+    {&quot;name&quot;:&quot;copy-images&quot;,&quot;column&quot;:9,&quot;threshold&quot;:[0.125],&quot;bind&quot;:{&quot;blocks&quot;:[
+  		{&quot;title&quot;:&quot;Smart envelopes for electronic chain of custody applications.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/proj_sendsecure.png&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/proj_sendsecure-mobile.png&quot;,&quot;caption&quot;:&quot;SendSecure&quot;,&quot;url&quot;:&quot;https://sendsecure.to&quot;,&quot;urlJson&quot;:&quot;https://sendsecure.to&quot;},
+  		{&quot;title&quot;:&quot;Secure credit cards, PIN codes and other critical items sent in the post.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/usecase_banking.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/usecase_banking.jpg&quot;,&quot;caption&quot;:&quot;Banking&quot;,&quot;url&quot;:&quot;projects/banking.html&quot;,&quot;urlJson&quot;:&quot;projects/banking.html&quot;},
+  {&quot;title&quot;:&quot;Convenient tax refunds for tourists. Returning more with zero paperwork and no queues.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/usecase_dutyfree.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/usecase_dutyfree.jpg&quot;,&quot;caption&quot;:&quot;Duty Free Refunds&quot;,&quot;url&quot;:&quot;projects/dutyfree.html&quot;,&quot;urlJson&quot;:&quot;projects/dutyfree.html&quot;},
+  		{&quot;title&quot;:&quot;Ensuring secure transfer of critical documents.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/usecase_legal.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/usecase_legal.jpg&quot;,&quot;caption&quot;:&quot;Legal&quot;,&quot;url&quot;:&quot;projects/legal.html&quot;,&quot;urlJson&quot;:&quot;projects/legal.html&quot;},
+  		{&quot;title&quot;:&quot;Securing medicines from source to consumer.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/usecase_meds.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/usecase_meds.jpg&quot;,&quot;caption&quot;:&quot;Counterfeit Medication&quot;,&quot;url&quot;:&quot;projects/counterfeit_meds.html&quot;,&quot;urlJson&quot;:&quot;projects/counterfeit_meds.html&quot;},
+  		{&quot;title&quot;:&quot;Secure transfer of critical samples.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/usecase_testing.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/usecase_testing.jpg&quot;,&quot;caption&quot;:&quot;Critical Samples&quot;,&quot;url&quot;:&quot;projects/critical_samples.html&quot;,&quot;urlJson&quot;:&quot;projects/critical_samples.html&quot;},
+  		{&quot;title&quot;:&quot;Protect the chain of custody of critical evidence.&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;image&quot;:&quot;assets/imgs/usecase_policing.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/usecase_policing.jpg&quot;,&quot;caption&quot;:&quot;Law Enforcement&quot;,&quot;url&quot;:&quot;projects/lawenforcement.html&quot;,&quot;urlJson&quot;:&quot;projects/lawenforcement.html&quot;}
+  	]}
+  	},
+		{&quot;name&quot;:&quot;intro&quot;,&quot;column&quot;:16,&quot;hud&quot;:&quot;black&quot;,&quot;bind&quot;:{&quot;isFull&quot;:true,&quot;white&quot;:true,&quot;image&quot;:&quot;assets/imgs/hero.jpg&quot;,&quot;imageMobile&quot;:&quot;assets/imgs/hero.jpg&quot;,&quot;title&quot;:&quot;Contact Us&quot;,&quot;sentence&quot;:&quot;Questions? Ideas? Or just want to say hi? We love to talk.&quot;}},{&quot;name&quot;:&quot;spacer&quot;,&quot;column&quot;:16,&quot;bind&quot;:{&quot;units&quot;:1}},{&quot;name&quot;:&quot;contact&quot;,&quot;threshold&quot;:[0],&quot;column&quot;:16}]"></site-container>
+
+
+
+        <div class="site-navigation__menu">
+            <ul class="display-navigation__ul">
+                <li class="site-navigation__item tr-basic tr-basic--enter"><a class="a site-navigation__link" href="index.html">Home</a</li>
+				        <li class="site-navigation__item tr-basic tr-basic--enter"><a class="a site-navigation__link" href="about.html">About</a</li>
+                <li class="site-navigation__item tr-basic tr-basic--enter"><a class="a site-navigation__link" href="usecases.html">Use Cases</a</li>
+                <li class="site-navigation__item tr-basic tr-basic--enter"><a class="a site-navigation__link" href="contact.html">Contact</a</li>
+
+            </ul>
+
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+
+            <a href="index.html" data-json-url="https://acuvera.com" class="a site-navigation__link" id="home_link">Home</a>
+            <a href="about.html" data-json-url="https://acuvera.com/about.html" class="a site-navigation__link" id="home_link">About</a>
+            <a href="usecases.html" data-json-url="https://acuvera.com/usecases.html" class="a site-navigation__link" id="projects_link">Use Cases</a>
+            <a href="contact.html" data-json-url="https://acuvera.com/contact" class="a site-navigation__link" id="contacts_link">Contact</a></li>
+
+        </div>
+
+        <p class="openMenu" id="open_menu" onclick="openNav()">Menu</p>
+        <p class="closeMenu" id="close-menu" onclick="closeNav()">Close</p>
+
+
+    </div>
+			
+			<section class="video-modal">
+        <!-- Modal Content Wrapper -->
+        <div class="video-modal-content" id="video-modal-content">
+            <!-- iframe -->
+            <iframe allowfullscreen="" frameborder="0" height="100%" id="youtube" name="youtube" src="" width="100%"></iframe>
+            <a class="close-video-modal" href="#"></a>
+        </div>
+        <!-- end modal content wrapper -->
+        <!-- clickable overlay element -->
+        <div class="overlay"></div>
+    </section>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Array.from%2CPromise%2CIntersectionObserver%2CElement.prototype.matches%2CElement.prototype.classList%2CArray.prototype.find"></script>
+    <script src="assets/js/app.js" async></script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+            document.getElementById("close-menu").style.display = "block";
+            document.getElementById("close-menu").style.color = "white";
+            document.getElementById("open_menu").style.display = "none"
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("open_menu").style.display = "block";
+            document.getElementById("close-menu").style.display = "none";
+        }
+    </script>
+
+    <script>
+
+
+        function nameSections() {
+            var myNodelist = document.querySelectorAll("section");
+            var i;
+            var j = "sect";
+            for (i = 0; i < myNodelist.length; i++) {
+                var k = j + "" + i;
+                myNodelist[i].setAttribute('id', k)
+            }
+            var video01 = document.getElementById("sect1");
+            sect1.innerHTML = '<video id="acuvera_vat_video" class="video-js vjs-sublime-skin vjs-fill" controls preload="none" poster="assets/imgs/video_poster_main.svg"> <source src="assets/video/concept_acuvera.mp4" type="video/mp4" /></video>';
+var linkvideo01 = document.querySelector("#sect3 .description");
+            linkvideo01.innerHTML = '<a class="btn ho js-trigger-video-modal style__ButtonDefault-sc-1ikbu4z-0 style__ButtonPrimary-sc-1ikbu4z-1 fSNPfX dim" data-youtube-id="yov0ib6sgNQ" href="https://www.youtube.com/watch?v=yov0ib6sgNQ">Play Video</a>';
+		var linkvideo02 = document.querySelector("#sect4 .description");
+            linkvideo02.innerHTML = '<a href="https://www.acuvera.com/projects/banking.html#sect1">PLAY VIDEO > </a>';
+		var linkvideo03 = document.querySelector("#sect5 .description");
+            linkvideo03.innerHTML = '<a href="https://www.acuvera.com/projects/dutyfree.html#sect1">PLAY VIDEO > </a>';
+
+
+
+      }
+    </script>
+
+</body>
+
+</html>

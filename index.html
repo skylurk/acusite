@@ -1,0 +1,909 @@
+<!doctype html>
+<html>
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1">
+
+  <title>Acuvera</title>
+  <meta name="description"
+    content="We are Acuvera. We design and develop simple solutions to complex problems. An innovation studio based in Nairobi, Kenya.">
+
+  <link rel="manifest" href="favicons/manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#1d1d1b">
+
+  <link rel="stylesheet" href="http://acuvera.com/assets/css/app.css">
+  <link rel="stylesheet" href="http://acuvera.com/assets/css/tailwind.css">
+
+  <meta property="og:title" content="Acuvera - Designing &amp; Engineering simple solutions to complex problems.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="index.html">
+  <meta property="og:site_name" content="Acuvera - Designing &amp; Engineering simple solutions to complex problems.">
+
+  <meta property="og:description"
+    content="We are Acuvera. We design and develop simple solutions to complex problems. An innovation studio based in Nairobi, Kenya.">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+    .contact-form {
+      padding-top: 20vh;
+    }
+
+    /* --- Video Modal --- */
+
+    .noscroll {
+      overflow: hidden;
+    }
+
+    .video-modal,
+    .video-modal .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .video-modal {
+      z-index: 3000;
+      overflow: hidden;
+      position: fixed;
+      opacity: 0;
+      -webkit-transform: translate(500%, 0);
+      transform: translate(500%, 0);
+      -webkit-transition: -webkit-transform 0s linear 0s;
+      transition: transform 0s linear 0s;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+
+    .video-modal .overlay {
+      z-index: 0;
+      background-color: rgba(33, 36, 46, .9);
+      opacity: 0;
+      -webkit-transition: opacity 0.2s ease;
+      transition: opacity 0.2s ease;
+    }
+
+    .video-modal-content {
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      width: calc(100% - 12em);
+      height: 0;
+      padding-top: calc((100% - 12em) * 0.5625);
+      margin: 0 auto;
+      overflow-y: visible;
+      background-color: #000;
+      z-index: 1;
+    }
+
+
+    /* Mobile */
+
+    @media (max-width: 640px) {
+      .video-modal-content {
+        width: calc(100% - 1em);
+        padding-top: calc((100% - 1em) * 0.5625);
+        /* 16:9 calc */
+      }
+    }
+
+
+    /* modal close button */
+
+    .close-video-modal {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: -55px;
+      width: 45px;
+      height: 45px;
+      border-radius: 50px;
+      background-color: red;
+    }
+
+
+    /* iframe element stretch to fit */
+
+    iframe#youtube {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background-color: #111;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5);
+    }
+
+
+    /* show modal */
+
+    .show-video-modal .video-modal {
+      opacity: 1;
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    .show-video-modal .video-modal .overlay {
+      opacity: 1;
+    }
+
+    .show-video-modal .video-modal-content {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+    /* Button */
+
+    a.btn.ho {
+      display: inline-block;
+      position: relative;
+      padding: 18px 32px;
+      margin: 20px 0;
+      font-size: 16px;
+      color: #fff;
+      text-align: center;
+      text-shadow: none;
+      text-decoration: none !important;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      opacity: 1;
+      -webkit-box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+      transition: all 0.4s ease;
+    }
+
+    a.btn.ho:hover {
+      opacity: 1;
+      color: #4e50e8;
+      background-color: #fff;
+      -webkit-box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.15);
+      -webkit-transform: translateY(-5px);
+      transform: translateY(-5px);
+    }
+  </style>
+  <style>
+    .contact-form {
+      padding-top: 20vh;
+    }
+
+    #acuvera_vat_video {
+      margin-top: 15%;
+      width: 60%;
+      max-width: 60%;
+      /* height: 0; */
+      height: calc(60vw * 0.563);
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: rgba(0, 0, 0, 0.1470588) 0px 1px 0px, rgba(0, 0, 0, 0.127451) 0px 0px 8px, rgba(0, 0, 0, 0.4) 0px 30px 30px;
+    }
+
+    .vjs-poster {
+      background-size: cover
+    }
+
+    button {
+      display: none;
+    }
+
+    .site-footer {
+      min-height: 10vh;
+    }
+  </style>
+  <link rel="stylesheet" href="https://vjs.zencdn.net/5-unsafe/video-js.css">
+  <link rel="stylesheet" href="http://acuvera.com/projects/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      /* Toggle Video Modal
+      -----------------------------------------*/
+      function toggle_video_modal() {
+        // Click on video thumbnail or link
+        $(".js-trigger-video-modal").on("click", function (e) {
+          // prevent default behavior for a-tags, button tags, etc.
+          e.preventDefault();
+          // Grab the video ID from the element clicked
+          var id = $(this).attr('data-youtube-id');
+          // Autoplay when the modal appears
+          // Note: this is intetnionally disabled on most mobile devices
+          // If critical on mobile, then some alternate method is needed
+          var autoplay = '?autoplay=1';
+          // Don't show the 'Related Videos' view when the video ends
+          var related_no = '&rel=0';
+          // String the ID and param variables together
+          var src = 'https://www.youtube.com/embed/' + id + autoplay + related_no;
+          // Pass the YouTube video ID into the iframe template...
+          // Set the source on the iframe to match the video ID
+          $("#youtube").attr('src', src);
+          // Add class to the body to visually reveal the modal
+          $("body").addClass("show-video-modal noscroll");
+        });
+        // Close and Reset the Video Modal
+        function close_video_modal() {
+          event.preventDefault();
+          // re-hide the video modal
+          $("body").removeClass("show-video-modal noscroll");
+          // reset the source attribute for the iframe template, kills the video
+          $("#youtube").attr('src', '');
+        }
+        // if the 'close' button/element, or the overlay are clicked
+        $('body').on('click', '.close-video-modal, .video-modal .overlay', function (event) {
+          // call the close and reset function
+          close_video_modal();
+        });
+        // if the ESC key is tapped
+        $('body').keyup(function (e) {
+          // ESC key maps to keycode `27`
+          if (e.keyCode == 27) {
+            // call the close and reset function
+            close_video_modal();
+          }
+        });
+      }
+      toggle_video_modal();
+    });
+  </script>
+
+</head>
+
+<body onload="nameSections()">
+
+  <div id="app">
+    <div class="site-container">
+      <div class="site-container__content">
+        <section class="section intro section--full text-on-black" id="sect0">
+          <div class="intro__image" style="background-image: url(&quot;assets/imgs/hero.jpg&quot;);"></div>
+          <div class="section__content">
+            <div class="g">
+              <div class="g-item g-item--lg">
+                <div class="title"><span class="words"><span class="word"><span
+                        class="word__inner word__inner--visible">We </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">are </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">Acuvera</span></span></span></div>
+                <h1 class="h1"><span class="words"><span class="word"><span
+                        class="word__inner word__inner--visible">Creating </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">innovative </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">electronic </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">chain </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">of </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">custody </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">systems </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">using </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">proprietary </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">packaging </span></span><span class="word"><span
+                        class="word__inner word__inner--visible">technology.</span></span></span></h1>
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+          <div class="section__overlay" style="opacity: 0;"></div>
+        </section>
+        <section class="section intro intro--full" id="sect1"><video id="acuvera_vat_video"
+            class="video-js vjs-sublime-skin vjs-fill" controls="" preload="none"
+            poster="assets/imgs/video_poster_main.svg">
+            <source src="assets/video/concept_acuvera.mp4" type="video/mp4"></video></section>
+        <div class="spacer">
+          <div class="spacer__unit"></div>
+          <div class="spacer__unit"></div>
+        </div>
+        <section class="section header" id="sect2">
+          <div class="section__content">
+            <div class="g">
+              <div class="g-item g-item--lg">
+                <div class="title"><span class="words"><span class="word"><span class="word__inner">Use
+                      </span></span><span class="word"><span class="word__inner">Cases</span></span></span></div>
+                <div class="h2 push-top--large"><span class="words"><span class="word"><span class="word__inner">Scroll
+                      </span></span><span class="word"><span class="word__inner">down </span></span><span
+                      class="word"><span class="word__inner">to </span></span><span class="word"><span
+                        class="word__inner">see </span></span><span class="word"><span class="word__inner">the
+                      </span></span><span class="word"><span class="word__inner">use </span></span><span
+                      class="word"><span class="word__inner">cases </span></span><span class="word"><span
+                        class="word__inner">we </span></span><span class="word"><span class="word__inner">are
+                      </span></span><span class="word"><span class="word__inner">working </span></span><span
+                      class="word"><span class="word__inner">on:</span></span></span></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="copy-images">
+          <div class="copy-images__container tr-default tr-default-active tr-default-enter">
+            <div class="copy-images__overlay"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 312 240" xml:space="preserve"
+                class="copy-images__logo">
+                <path
+                  d="M0.708174194,158.578817 L127.877643,82.2771357 L127.877643,76.9537626 L0.708174194,0.652081311 L0.708174194,7.45416918 L121.075556,79.3197062 L121.075556,79.9111921 L0.708174194,151.776729 L0.708174194,158.578817 Z M291.27562,211.516805 L291.27562,205.897689 L149.319003,205.897689 L149.319003,211.516805 L291.27562,211.516805 Z">
+                </path>
+              </svg></div>
+          </div>
+          <div class="copy-images__container">
+            <div class="copy-images__overlay">
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect3">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a
+                          href="https://sendsecure.to" target="_top"
+                          class="a">
+                          Smart envelopes for electronic chain of custody applications.
+                        </a></div>
+                      <div class="description push-top--large tr-basic"><a
+                          class="btn ho js-trigger-video-modal style__ButtonDefault-sc-1ikbu4z-0 style__ButtonPrimary-sc-1ikbu4z-1 fSNPfX dim"
+                          data-youtube-id="yov0ib6sgNQ"
+                          href="https://www.youtube.com/watch?v=yov0ib6sgNQ">Play
+                          Video</a></div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a
+                        href="https://sendsecure.to" target="_top"
+                        class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/proj_sendsecure.png"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            SendSecure
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect4">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a href="projects/banking.html" target="_top" class="a">
+                          Secure credit cards, PIN codes and other critical items sent in the post.
+                        </a></div>
+                      <div class="description push-top--large tr-basic"><a
+                          href="https://www.acuvera.com/projects/banking.html#sect1">PLAY
+                          VIDEO &gt; </a></div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/banking.html"
+                        target="_top" class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/usecase_banking.jpg"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            Banking
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect5">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a href="projects/dutyfree.html" target="_top" class="a">
+                          Convenient tax refunds for tourists. Returning more with zero paperwork and no queues.
+                        </a></div>
+                      <div class="description push-top--large tr-basic"><a
+                          href="https://www.acuvera.com/projects/dutyfree.html#sect1">PLAY
+                          VIDEO &gt; </a></div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/dutyfree.html"
+                        target="_top" class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/usecase_dutyfree.jpg"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            Duty Free Refunds
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect6">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a href="projects/legal.html" target="_top" class="a">
+                          Ensuring secure transfer of critical documents.
+                        </a></div>
+                      <div class="description push-top--large tr-basic">
+
+                      </div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/legal.html"
+                        target="_top" class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/usecase_legal.jpg"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            Legal
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect7">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a href="projects/counterfeit_meds.html" target="_top" class="a">
+                          Securing medicines from source to consumer.
+                        </a></div>
+                      <div class="description push-top--large tr-basic">
+
+                      </div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/counterfeit_meds.html"
+                        target="_top" class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/usecase_meds.jpg"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            Counterfeit Medication
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect8">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a href="projects/critical_samples.html" target="_top" class="a">
+                          Secure transfer of critical samples.
+                        </a></div>
+                      <div class="description push-top--large tr-basic">
+
+                      </div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/critical_samples.html"
+                        target="_top" class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/usecase_testing.jpg"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            Critical Samples
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <section class="section section--full section--stretch copy-image copy-image--hidden" id="sect9">
+                <div class="section__content">
+                  <div class="g h100 align-center">
+                    <div class="g-item g-item--half-1 copy-image__content">
+                      <div class="h2 tr-basic"><a href="projects/lawenforcement.html" target="_top" class="a">
+                          Protect the chain of custody of critical evidence.
+                        </a></div>
+                      <div class="description push-top--large tr-basic">
+
+                      </div>
+                    </div>
+                    <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/lawenforcement.html"
+                        target="_top" class="h100 relative a--block a--subtle">
+                        <div class="full-image tr-move"><img src="assets/imgs/usecase_policing.jpg"
+                            class="full-image__image"></div>
+                        <div class="copy-image__caption">
+                          <div class="tr-move">
+                            Law Enforcement
+                          </div>
+                        </div>
+                      </a></div>
+                  </div>
+                </div>
+              </section>
+              <div class="copy-images__progress">
+                <div class="copy-images__progress__inner tr-move">
+                  <div class="copy-images__progress__current">
+                    01
+                  </div>
+                  <div class="copy-images__progress__total">
+                    / 07
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copy-images__flow">
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect10">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a
+                        href="https://sendsecure.to" target="_top"
+                        class="a">
+                        Smart envelopes for electronic chain of custody applications.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a
+                      href="https://sendsecure.to" target="_top"
+                      class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/proj_sendsecure.png"
+                          class="full-image__image"></div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          SendSecure
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect11">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a href="projects/banking.html" target="_top" class="a">
+                        Secure credit cards, PIN codes and other critical items sent in the post.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/banking.html"
+                      target="_top" class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/usecase_banking.jpg"
+                          class="full-image__image"></div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          Banking
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect12">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a href="projects/dutyfree.html" target="_top" class="a">
+                        Convenient tax refunds for tourists. Returning more with zero paperwork and no queues.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/dutyfree.html"
+                      target="_top" class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/usecase_dutyfree.jpg"
+                          class="full-image__image"></div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          Duty Free Refunds
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect13">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a href="projects/legal.html" target="_top" class="a">
+                        Ensuring secure transfer of critical documents.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/legal.html" target="_top"
+                      class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/usecase_legal.jpg"
+                          class="full-image__image"></div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          Legal
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect14">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a href="projects/counterfeit_meds.html" target="_top" class="a">
+                        Securing medicines from source to consumer.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/counterfeit_meds.html"
+                      target="_top" class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/usecase_meds.jpg" class="full-image__image">
+                      </div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          Counterfeit Medication
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect15">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a href="projects/critical_samples.html" target="_top" class="a">
+                        Secure transfer of critical samples.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/critical_samples.html"
+                      target="_top" class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/usecase_testing.jpg"
+                          class="full-image__image"></div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          Critical Samples
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+            <section class="section section--full section--stretch copy-image copy-image--push" id="sect16">
+              <div class="section__content">
+                <div class="g h100 align-center">
+                  <div class="g-item g-item--half-1 copy-image__content">
+                    <div class="h2 tr-basic"><a href="projects/lawenforcement.html" target="_top" class="a">
+                        Protect the chain of custody of critical evidence.
+                      </a></div>
+                    <div class="description push-top--large tr-basic">
+
+                    </div>
+                  </div>
+                  <div class="g-item g-item--half-2 h100 copy-image__image"><a href="projects/lawenforcement.html"
+                      target="_top" class="h100 relative a--block a--subtle">
+                      <div class="full-image tr-move"><img src="assets/imgs/usecase_policing.jpg"
+                          class="full-image__image"></div>
+                      <div class="copy-image__caption">
+                        <div class="tr-move">
+                          Law Enforcement
+                        </div>
+                      </div>
+                    </a></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <section class="section intro section--full text-on-black" id="sect17">
+          <div class="intro__image" style="background-image: url(&quot;assets/imgs/hero.jpg&quot;);"></div>
+          <div class="section__content">
+            <div class="g">
+              <div class="g-item g-item--lg">
+                <div class="title"><span class="words"><span class="word"><span class="word__inner">Contact
+                      </span></span><span class="word"><span class="word__inner">Us</span></span></span></div>
+                <h1 class="h1"><span class="words"><span class="word"><span class="word__inner">Questions?
+                      </span></span><span class="word"><span class="word__inner">Ideas? </span></span><span
+                      class="word"><span class="word__inner">Or </span></span><span class="word"><span
+                        class="word__inner">just </span></span><span class="word"><span class="word__inner">want
+                      </span></span><span class="word"><span class="word__inner">to </span></span><span
+                      class="word"><span class="word__inner">say </span></span><span class="word"><span
+                        class="word__inner">hi? </span></span><span class="word"><span class="word__inner">We
+                      </span></span><span class="word"><span class="word__inner">love </span></span><span
+                      class="word"><span class="word__inner">to </span></span><span class="word"><span
+                        class="word__inner">talk.</span></span></span></h1>
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+          <div class="section__overlay" style="opacity: 0;"></div>
+        </section>
+        <div class="spacer">
+          <div class="spacer__unit"></div>
+        </div>
+        <section class="section contact" id="sect18">
+          <div class="section__content">
+            <div class="g">
+              <div class="g-item">
+                <h2 class="h2 tr-basic">Contact</h2>
+                <div class="push-top--large tr-basic">
+                  <p>Have a project you’d like to talk to us about, or any general enquiries? Contact us at:</p>
+                </div>
+                <div class="description push-top tr-basic"><a href="mailto:mail@acuvera.com">mail@acuvera.com</a></div>
+                <div class="push-top--large tr-basic">
+                  <p></p>
+                </div>
+                <div class="description push-top tr-basic"><a href="mailto:hello@acuvera.com"></a></div>
+                <div class="push-top--large tr-basic">
+                  <p></p>
+                </div>
+                <ul class="ul description push-top tr-basic">
+                  <li><a href="https://www.behance.net/madebyacuvera"
+                      class="a a--subtle"></a></li>
+                </ul>
+              </div>
+              <div class="g-item g-item--half-2">
+                <div class="tr-basic"><svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 23 32" xml:space="preserve"
+                    class="contact__pin">
+                    <path d="M11.5,32C3.83,22.75,0,15.97,0,11.68C0,5.23,5.15,0,11.5,0S23,5.23,23,11.68
+								C23,15.97,19.17,22.75,11.5,32z M11.5,17c2.49,0,4.5-2.01,4.5-4.5S13.99,8,11.5,8S7,10.01,7,12.5S9.01,17,11.5,17z"
+                      class="st0"></path>
+                  </svg></div>
+                <div class="push-top--large tr-basic">
+                  <p>
+                    <br>
+                    <br>
+
+                  </p>
+                </div>
+                <p class="description tr-basic"><a href=""></a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section site-footer align-bottom" id="sect19">
+          <div class="section__content">
+            <div class="g align-top push-top--x-large">
+              <div class="g-item site-footer__copyright push-top"><span class="words"><span class="word"><span
+                      class="word__inner">© </span></span><span class="word"><span
+                      class="word__inner">2024</span></span></span></div>
+              <div class="g-item site-footer__details push-top">
+                <p><span class="words"><span class="word"><span class="word__inner">www.acuvera.com</span></span></span>
+                </p>
+                <p class="site-footer__company"><span class="words"><span class="word"><span class="word__inner">All
+                      </span></span><span class="word"><span class="word__inner">Rights </span></span><span
+                      class="word"><span class="word__inner">Reserved.</span></span></span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="site-container__background-outer">
+        <div class="site-container__background-inner">
+          <div class="site-container__background" style="transform: translate3d(88.8889%, 0px, 0px);"></div>
+        </div>
+      </div>
+      <div class="site-container__marque" style="clip-path: inset(0px 0px 0px 88.8889%);"><svg version="1.1"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 166 30" xml:space="preserve" fill="#ffffff" class="site-container__marque__svg"
+          style="display: none;">
+          <path
+            d="M0,22.191457 L12.47,14.709457 L12.47,14.187457 L0,6.70545703 L0,7.37245703 L11.803,14.419457 L11.803,14.477457 L0,21.524457 L0,22.191457 Z M28.4924996,27.382457 L28.4924996,26.831457 L14.5724996,26.831457 L14.5724996,27.382457 L28.4924996,27.382457 Z M51.0112491,23.293457 L51.0112491,20.8720703 L42.0053897,20.8720703 L42.0053897,1.31689453 L39.1450382,1.31689453 L39.1450382,23.293457 L51.0112491,23.293457 Z M60.0527917,23.7324219 C62.3089766,23.7324219 64.1167565,22.9418132 65.4761315,21.3605957 C66.8355065,19.7793783 67.515194,17.7851562 67.515194,15.3779297 C67.515194,12.9707031 66.8355065,10.9788411 65.4761315,9.40234375 C64.1167565,7.82584635 62.3089766,7.03759766 60.0527917,7.03759766 C57.7871667,7.03759766 55.9746667,7.82584635 54.6152917,9.40234375 C53.2559167,10.9788411 52.5762292,12.9707031 52.5762292,15.3779297 C52.5762292,17.7851562 53.2559167,19.7793783 54.6152917,21.3605957 C55.9746667,22.9418132 57.7871667,23.7324219 60.0527917,23.7324219 Z M60.0527917,21.5375977 C58.6367761,21.5375977 57.5134037,20.9900716 56.6826745,19.8950195 C55.8519453,18.7999674 55.4365808,17.2942708 55.4365808,15.3779297 C55.4365808,13.4710286 55.8519453,11.9700521 56.6826745,10.875 C57.5134037,9.77994792 58.6367761,9.23242188 60.0527917,9.23242188 C61.4593672,9.23242188 62.5780196,9.77994792 63.4087487,10.875 C64.2394779,11.9700521 64.6548425,13.4710286 64.6548425,15.3779297 C64.6548425,17.2942708 64.2394779,18.7999674 63.4087487,19.8950195 C62.5780196,20.9900716 61.4593672,21.5375977 60.0527917,21.5375977 Z M73.2290999,23.7324219 C74.1731103,23.7324219 75.2091618,23.3972982 76.3372542,22.7270508 C77.4653467,22.0568034 78.4305973,21.0608724 79.2330062,19.7392578 C79.3557275,21.2402344 79.5209294,22.4249674 79.7286116,23.293457 L79.7286116,23.293457 L82.475682,23.293457 C82.0791976,22.1040039 81.8809554,20.5558268 81.8809554,18.6489258 L81.8809554,18.6489258 L81.8809554,7.4765625 L79.2330062,7.4765625 C78.9309228,7.44824219 78.7043603,7.42464193 78.5533187,7.40576172 C77.5432275,7.30192057 76.7880192,7.25 76.2876937,7.25 C74.5601546,7.25 73.1110986,7.66772461 71.9405257,8.50317383 C70.7699528,9.33862305 69.8353825,10.4761556 69.1368148,11.9157715 C68.4382471,13.3553874 68.0889632,14.9908854 68.0889632,16.8222656 C68.0889632,19.1445312 68.615249,20.8767904 69.6678206,22.019043 C70.7203922,23.1612956 71.9074853,23.7324219 73.2290999,23.7324219 Z M73.8521468,21.2119141 C73.0969385,21.2119141 72.424331,20.8130697 71.8343245,20.0153809 C71.244318,19.2176921 70.9493148,18.035319 70.9493148,16.4682617 C70.9493148,14.3064779 71.4897607,12.597819 72.5706527,11.3422852 C73.6515446,10.0867513 75.0038395,9.45898438 76.6275374,9.45898438 C77.4299463,9.45898438 78.2984359,9.58170573 79.2330062,9.82714844 L79.2330062,9.82714844 L79.2330062,16.6098633 C78.4494775,18.0164388 77.5621077,19.1350911 76.5708968,19.9658203 C75.5796859,20.7965495 74.6734359,21.2119141 73.8521468,21.2119141 Z M88.6993535,23.7324219 C89.6433639,23.7324219 90.6794153,23.3972982 91.8075078,22.7270508 C92.9356002,22.0568034 93.9008509,21.0608724 94.7032597,19.7392578 L94.7032597,19.7392578 L94.7032597,23.293457 L97.3512089,23.293457 L97.3512089,0.438964844 L94.7032597,0.438964844 L94.7032597,7.4765625 C94.4011764,7.44824219 94.1746139,7.42464193 94.0235722,7.40576172 C93.0134811,7.30192057 92.2582727,7.25 91.7579472,7.25 C90.0304082,7.25 88.5813522,7.66772461 87.4107793,8.50317383 C86.2402063,9.33862305 85.305636,10.4761556 84.6070683,11.9157715 C83.9085006,13.3553874 83.5592168,14.9908854 83.5592168,16.8222656 C83.5592168,19.1445312 84.0855026,20.8767904 85.1380742,22.019043 C86.1906458,23.1612956 87.3777389,23.7324219 88.6993535,23.7324219 Z M89.3224003,21.2119141 C88.567192,21.2119141 87.8945846,20.8130697 87.3045781,20.0153809 C86.7145716,19.2176921 86.4195683,18.035319 86.4195683,16.4682617 C86.4195683,14.3064779 86.9600143,12.597819 88.0409062,11.3422852 C89.1217981,10.0867513 90.4740931,9.45898438 92.097791,9.45898438 C92.9001998,9.45898438 93.7686894,9.58170573 94.7032597,9.82714844 L94.7032597,9.82714844 L94.7032597,16.6098633 C93.9197311,18.0164388 93.0323613,19.1350911 92.0411503,19.9658203 C91.0499394,20.7965495 90.1436894,21.2119141 89.3224003,21.2119141 Z M105.189138,3.52587891 C105.557302,3.52587891 105.944347,3.37955729 106.350271,3.08691406 C106.756196,2.79427083 106.959158,2.35530599 106.959158,1.77001953 C106.959158,1.17529297 106.756196,0.731608073 106.350271,0.438964844 C105.944347,0.146321615 105.557302,0 105.189138,0 C104.830414,0 104.44809,0.146321615 104.042166,0.438964844 C103.636241,0.731608073 103.433279,1.17529297 103.433279,1.77001953 C103.433279,2.35530599 103.636241,2.79427083 104.042166,3.08691406 C104.44809,3.37955729 104.830414,3.52587891 105.189138,3.52587891 Z M110.909841,23.293457 L110.909841,21.0986328 L106.506033,21.0986328 L106.506033,7.4765625 L99.4825953,7.4765625 L99.4825953,9.67138672 L103.872244,9.67138672 L103.872244,23.293457 L110.909841,23.293457 Z M117.374236,23.293457 L117.374236,14.0751953 C118.063363,12.7535807 118.938933,11.6538086 120.000945,10.7758789 C121.062956,9.89794922 122.056527,9.45898438 122.981657,9.45898438 C123.444223,9.45898438 123.871387,9.61474609 124.263152,9.92626953 C124.654916,10.237793 124.923959,10.6366374 125.07028,11.1228027 C125.216602,11.6089681 125.289763,12.6119792 125.289763,14.1318359 L125.289763,23.293457 L127.923552,23.293457 L127.923552,14.4575195 C127.923552,12.1069336 127.77015,10.5304362 127.463347,9.72802734 C127.156543,8.92561849 126.620818,8.27661133 125.856169,7.78100586 C125.091521,7.28540039 124.241911,7.03759766 123.307341,7.03759766 C122.240609,7.03759766 121.173877,7.38216146 120.107146,8.07128906 C119.040414,8.76041667 118.129444,9.71386719 117.374236,10.9316406 L117.374236,10.9316406 L117.374236,7.4765625 L114.740446,7.4765625 L114.740446,23.293457 L117.374236,23.293457 Z M135.336677,29.8779297 C137.243578,29.8779297 138.869636,29.4720052 140.21485,28.6601562 C141.560065,27.8483073 142.421475,26.7390951 142.799079,25.3325195 C142.959561,24.7283529 143.075202,24.1312663 143.146003,23.5412598 C143.216804,22.9512533 143.252204,21.3251953 143.252204,18.6630859 L143.252204,7.4765625 L140.604255,7.4765625 C140.302171,7.44824219 140.075609,7.42464193 139.924567,7.40576172 C138.914476,7.30192057 138.159268,7.25 137.658942,7.25 C135.931403,7.25 134.482347,7.66772461 133.311774,8.50317383 C132.141201,9.33862305 131.206631,10.4761556 130.508063,11.9157715 C129.809496,13.3553874 129.460212,14.9908854 129.460212,16.8222656 C129.460212,19.1445312 129.986498,20.8767904 131.039069,22.019043 C132.091641,23.1612956 133.278734,23.7324219 134.600348,23.7324219 C135.544359,23.7324219 136.58041,23.3972982 137.708503,22.7270508 C138.836595,22.0568034 139.801846,21.0608724 140.604255,19.7392578 L140.604255,19.7392578 L140.604255,21.9765625 C140.604255,23.0338542 140.524014,23.8811035 140.363532,24.5183105 C140.20305,25.1555176 139.900967,25.7148438 139.457282,26.1962891 C139.013597,26.6777344 138.433031,27.0458984 137.715583,27.3007812 C136.998135,27.5556641 136.238207,27.6831055 135.435798,27.6831055 C134.416266,27.6831055 133.361335,27.4872233 132.271003,27.095459 C131.180671,26.7036947 130.262621,26.2529297 129.516852,25.7431641 L129.516852,25.7431641 L129.516852,28.4052734 C131.480394,29.3870443 133.420335,29.8779297 135.336677,29.8779297 Z M135.223395,21.2119141 C134.468187,21.2119141 133.79558,20.8130697 133.205573,20.0153809 C132.615567,19.2176921 132.320563,18.035319 132.320563,16.4682617 C132.320563,14.3064779 132.861009,12.597819 133.941901,11.3422852 C135.022793,10.0867513 136.375088,9.45898438 137.998786,9.45898438 C138.801195,9.45898438 139.669684,9.58170573 140.604255,9.82714844 L140.604255,9.82714844 L140.604255,16.6098633 C139.820726,18.0164388 138.933356,19.1350911 137.942145,19.9658203 C136.950934,20.7965495 136.044684,21.2119141 135.223395,21.2119141 Z M156.248571,23.7524414 C156.613154,23.7524414 156.937047,23.6124674 157.22025,23.3325195 C157.503454,23.0525716 157.645055,22.7237956 157.645055,22.3461914 C157.645055,21.9685872 157.503454,21.6414388 157.22025,21.3647461 C156.937047,21.0880534 156.613154,20.949707 156.248571,20.949707 C155.877477,20.949707 155.550329,21.0880534 155.267125,21.3647461 C154.983922,21.6414388 154.842321,21.9685872 154.842321,22.3461914 C154.842321,22.7237956 154.983922,23.0525716 155.267125,23.3325195 C155.550329,23.6124674 155.877477,23.7524414 156.248571,23.7524414 Z M160.242711,23.7524414 C160.613805,23.7524414 160.940954,23.6124674 161.224157,23.3325195 C161.50736,23.0525716 161.648961,22.7237956 161.648961,22.3461914 C161.648961,21.9685872 161.50736,21.6414388 161.224157,21.3647461 C160.940954,21.0880534 160.613805,20.949707 160.242711,20.949707 C159.871618,20.949707 159.546097,21.0880534 159.266149,21.3647461 C158.986201,21.6414388 158.846227,21.9685872 158.846227,22.3461914 C158.846227,22.7237956 158.986201,23.0525716 159.266149,23.3325195 C159.546097,23.6124674 159.871618,23.7524414 160.242711,23.7524414 Z M164.246618,23.7524414 C164.617711,23.7524414 164.943232,23.6124674 165.22318,23.3325195 C165.503128,23.0525716 165.643102,22.7237956 165.643102,22.3461914 C165.643102,21.9685872 165.503128,21.6414388 165.22318,21.3647461 C164.943232,21.0880534 164.617711,20.949707 164.246618,20.949707 C163.875524,20.949707 163.548375,21.0880534 163.265172,21.3647461 C162.981969,21.6414388 162.840368,21.9685872 162.840368,22.3461914 C162.840368,22.7237956 162.981969,23.0525716 163.265172,23.3325195 C163.548375,23.6124674 163.875524,23.7524414 164.246618,23.7524414 Z">
+          </path>
+        </svg></div>
+      <div class="site-navigation tr-fade-enter-active"><a
+          href="https://acuvera.com" class="site-navigation__logo"><svg
+            version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 30 22" xml:space="preserve" width="30px" class="site-navigation__logo__few-and">
+            <path
+              d="M0.667500363,15.898 L13.1375004,8.416 L13.1375004,7.894 L0.667500363,0.412 L0.667500363,1.079 L12.4705004,8.126 L12.4705004,8.184 L0.667500363,15.231 L0.667500363,15.898 Z M29.16,21.089 L29.16,20.538 L15.24,20.538 L15.24,21.089 L29.16,21.089 Z">
+            </path>
+          </svg> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 120 26" width="120px" xml:space="preserve" class="site-navigation__logo__far"
+            style="transform: translate3d(-100%, 0px, 0px) translate3d(83.3333vw, 0px, 0px);">
+            <path
+              d="M70.2503509,8.74414062 C72.1289317,8.74414062 73.6369883,9.41438802 74.7745208,10.7548828 C75.9120534,12.0953776 76.4808197,14.1627604 76.4808197,16.9570312 L76.4808197,16.9570312 L76.4808197,17.5234375 L65.5774994,17.5234375 L65.585978,17.8849585 C65.6311972,18.839691 65.8572936,19.7198351 66.2642669,20.5253906 C66.722112,21.4316406 67.3239186,22.1113281 68.0696869,22.5644531 C68.8154551,23.0175781 69.6650645,23.2441406 70.618515,23.2441406 C72.3177337,23.2441406 74.1963145,22.6777344 76.2542572,21.5449219 L76.2542572,21.5449219 L76.2542572,23.9521484 L75.8347389,24.1456076 C73.8840358,25.0172859 72.0320133,25.453125 70.2786712,25.453125 C68.8532155,25.453125 67.5788014,25.0991211 66.4554291,24.3911133 C65.3320567,23.6831055 64.4328867,22.6706543 63.7579193,21.3537598 C63.0829518,20.0368652 62.7454681,18.6279297 62.7454681,17.1269531 C62.7454681,15.6826172 63.0664317,14.2949219 63.7083587,12.9638672 C64.3502858,11.6328125 65.2470957,10.5967611 66.3987884,9.85571289 C67.5504811,9.11466471 68.8343353,8.74414062 70.2503509,8.74414062 Z M25.3264067,8.74414062 C26.9595447,8.74414062 28.6870838,9.05094401 30.5090239,9.66455078 L30.5090239,9.66455078 L30.5090239,12.1992187 L30.1175245,12.0256123 C28.4338626,11.3011807 26.9170643,10.9389648 25.5671294,10.9389648 C24.6042387,10.9389648 23.6979887,11.1773275 22.8483794,11.6540527 C21.99877,12.130778 21.3426827,12.8741862 20.8801176,13.8842773 C20.4175525,14.8943685 20.18627,15.9327799 20.18627,16.9995117 C20.18627,18.4249674 20.6323149,19.7843424 21.5244047,21.0776367 C22.4164946,22.370931 23.81599,23.0175781 25.7228911,23.0175781 C26.2987374,23.0175781 26.8651437,22.9774577 27.4221098,22.8972168 C27.979076,22.8169759 29.0080473,22.5219727 30.5090239,22.012207 L30.5090239,22.012207 L30.5090239,24.546875 L30.029685,24.7017005 C28.4389105,25.1932101 26.9183515,25.4389648 25.4680083,25.4389648 C23.8820708,25.4389648 22.4731352,25.0731608 21.2412016,24.3415527 C20.009268,23.6099447 19.0487374,22.6187337 18.3596098,21.3679199 C17.6704822,20.1171061 17.3259184,18.6940104 17.3259184,17.0986328 C17.3259184,14.7008464 18.107087,12.7089844 19.6694243,11.1230469 C21.2317615,9.53710937 23.1174223,8.74414062 25.3264067,8.74414062 Z M34.9626759,9.18310547 L34.9626759,18.3447266 L34.9636513,18.6418066 C34.9727558,19.9960211 35.0455915,20.9000054 35.1821583,21.3537598 C35.3284799,21.8399251 35.5975229,22.2387695 35.9892872,22.550293 C36.3810515,22.8618164 36.8034962,23.0175781 37.2566212,23.0175781 C38.1817514,23.0175781 39.1753224,22.5809733 40.2373341,21.7077637 C41.2993458,20.834554 42.1796355,19.7324219 42.8782032,18.4013672 L42.8782032,18.4013672 L42.8782032,9.18310547 L45.5119923,9.18310547 L45.5119923,25 L42.8782032,25 L42.8782032,21.5307617 L42.6638342,21.8496602 C41.8706032,22.9940762 40.9980491,23.8648275 40.046172,24.4619141 C39.0077605,25.1132812 37.969349,25.4389648 36.9309376,25.4389648 C36.0058074,25.4389648 35.158558,25.1911621 34.3891895,24.6955566 C33.6198211,24.1999512 33.0840951,23.548584 32.7820118,22.7414551 C32.4799285,21.9343262 32.3288868,20.3601888 32.3288868,18.019043 L32.3288868,18.019043 L32.3288868,9.18310547 L34.9626759,9.18310547 Z M101.148378,8.95654297 C101.648703,8.95654297 102.403911,9.00846354 103.414003,9.11230469 C103.565044,9.1311849 103.791607,9.15478516 104.09369,9.18310547 L104.09369,9.18310547 L106.741639,9.18310547 L106.741639,20.3554687 L106.745158,20.789155 C106.773311,22.4984283 106.97038,23.9020433 107.336366,25 L107.336366,25 L104.589296,25 L104.533708,24.7552985 C104.351928,23.9134908 104.205255,22.8103249 104.09369,21.4458008 C103.291281,22.7674154 102.326031,23.7633464 101.197938,24.4335937 C100.069846,25.1038411 99.0337942,25.4389648 98.0897838,25.4389648 C96.7681692,25.4389648 95.5810761,24.8678385 94.5285045,23.7255859 C93.4759329,22.5833333 92.9496471,20.8510742 92.9496471,18.5288086 C92.9496471,16.6974284 93.2989309,15.0619303 93.9974986,13.6223145 C94.6960663,12.1826986 95.6306367,11.045166 96.8012096,10.2097168 C97.9717825,9.37426758 99.4208385,8.95654297 101.148378,8.95654297 Z M9.841993,3.0234375 L16.6530282,25 L13.6369149,25 L12.1359383,20.1713867 L4.404493,20.1713867 L2.91767659,25 L0.170606281,25 L6.93916097,3.0234375 L9.841993,3.0234375 Z M48.9602732,9.18310547 L54.383613,21.7006836 L59.9202341,9.18310547 L62.5540232,9.18310547 L55.6297068,25 L52.9392771,25 L46.0716013,9.18310547 L48.9602732,9.18310547 Z M88.7508779,8.74414062 C89.7043284,8.74414062 90.6577789,8.89046224 91.6112295,9.18310547 L91.6112295,9.18310547 L91.6112295,14.8896484 L89.0765615,14.8896484 L89.0765615,11.2788086 L88.8625858,11.2441949 C88.5190709,11.1917499 88.2411123,11.1655273 88.0287099,11.1655273 C87.0469391,11.1655273 86.0840485,11.5525716 85.1400381,12.3266602 C84.1960276,13.1007487 83.2756175,14.2618815 82.3788076,15.8100586 L82.3788076,15.8100586 L82.3788076,25 L79.7450185,25 L79.7450185,9.18310547 L82.3788076,9.18310547 L82.3788076,12.6381836 L82.5866374,12.3193342 C83.3578742,11.1752788 84.230248,10.3068712 85.2037588,9.71411133 C86.2657705,9.06746419 87.4481435,8.74414062 88.7508779,8.74414062 Z M101.488221,11.1655273 C99.8645234,11.1655273 98.5122285,11.7932943 97.4313365,13.0488281 C96.3504446,14.304362 95.8099986,16.0130208 95.8099986,18.1748047 C95.8099986,19.741862 96.1050019,20.924235 96.6950084,21.7219238 C97.2850149,22.5196126 97.9576223,22.918457 98.7128307,22.918457 C99.5341197,22.918457 100.44037,22.5030924 101.431581,21.6723633 C102.422792,20.8416341 103.310161,19.7229818 104.09369,18.3164062 L104.09369,18.3164062 L104.09369,11.5336914 L103.697206,11.4360152 C102.912328,11.25569 102.176,11.1655273 101.488221,11.1655273 Z M8.22773519,7.42724609 L7.67548909,9.63623047 L5.0841805,17.9765625 L11.4987313,17.9765625 L8.85078206,9.63623047 L8.22773519,7.42724609 Z M70.1370697,10.9389648 C69.0703379,10.9389648 68.1475677,11.3283691 67.3687591,12.1071777 C66.5899505,12.8859863 66.0447845,14.035319 65.7332611,15.5551758 L65.7332611,15.5551758 L73.6204681,15.5551758 L73.6204681,15.1728516 L73.6148543,14.8790912 C73.569944,13.722818 73.2555718,12.7917668 72.6717376,12.0859375 C72.0392507,11.3212891 71.1943613,10.9389648 70.1370697,10.9389648 Z M115.725,0.8 C116.231667,0.8 116.705,0.89 117.145,1.07 C117.585,1.25 117.968333,1.50333333 118.295,1.83 C118.621667,2.15666667 118.878333,2.54333333 119.065,2.99 C119.251667,3.43666667 119.345,3.92 119.345,4.44 C119.345,4.96 119.251667,5.44333333 119.065,5.89 C118.878333,6.33666667 118.621667,6.72333333 118.295,7.05 C117.968333,7.37666667 117.585,7.63 117.145,7.81 C116.705,7.99 116.231667,8.08 115.725,8.08 C115.218333,8.08 114.745,7.99 114.305,7.81 C113.865,7.63 113.481667,7.37666667 113.155,7.05 C112.828333,6.72333333 112.571667,6.33666667 112.385,5.89 C112.198333,5.44333333 112.105,4.96 112.105,4.44 C112.105,3.92 112.198333,3.43666667 112.385,2.99 C112.571667,2.54333333 112.828333,2.15666667 113.155,1.83 C113.481667,1.50333333 113.865,1.25 114.305,1.07 C114.745,0.89 115.218333,0.8 115.725,0.8 Z M115.725,1.1 C115.271667,1.1 114.848333,1.18333333 114.455,1.35 C114.061667,1.51666667 113.718333,1.74333333 113.425,2.03 C113.131667,2.31666667 112.901667,2.65333333 112.735,3.04 C112.568333,3.42666667 112.485,3.84 112.485,4.28 L112.485,4.28 L112.485,4.6 L112.495,4.8608 C112.521667,5.20426667 112.601667,5.53066667 112.735,5.84 C112.901667,6.22666667 113.131667,6.56333333 113.425,6.85 C113.718333,7.13666667 114.061667,7.36333333 114.455,7.53 C114.848333,7.69666667 115.271667,7.78 115.725,7.78 C116.178333,7.78 116.601667,7.69666667 116.995,7.53 C117.388333,7.36333333 117.731667,7.13666667 118.025,6.85 C118.318333,6.56333333 118.548333,6.22666667 118.715,5.84 C118.881667,5.45333333 118.965,5.04 118.965,4.6 L118.965,4.6 L118.965,4.28 L118.955,4.0192 C118.928333,3.67573333 118.848333,3.34933333 118.715,3.04 C118.548333,2.65333333 118.318333,2.31666667 118.025,2.03 C117.731667,1.74333333 117.388333,1.51666667 116.995,1.35 C116.601667,1.18333333 116.178333,1.1 115.725,1.1 Z M116.025,2.58 L116.192222,2.58722222 C116.460741,2.6112963 116.678333,2.69555556 116.845,2.84 C117.045,3.01333333 117.145,3.29333333 117.145,3.68 C117.145,4 117.055,4.24666667 116.875,4.42 C116.695,4.59333333 116.465,4.68666667 116.185,4.7 L116.185,4.7 L117.245,6.28 L116.885,6.28 L115.865,4.72 L114.985,4.72 L114.985,6.28 L114.685,6.28 L114.685,2.58 L116.025,2.58 Z M116.005,2.84 L114.985,2.84 L114.985,4.46 L116.005,4.46 C116.311667,4.46 116.525,4.40333333 116.645,4.29 C116.765,4.17666667 116.825,3.98666667 116.825,3.72 L116.825,3.72 L116.825,3.58 L116.82,3.45305556 C116.803333,3.25212963 116.745,3.10444444 116.645,3.01 C116.525,2.89666667 116.311667,2.84 116.005,2.84 L116.005,2.84 Z">
+            </path>
+          </svg></a>
+        <!---->
+        <div class="site-navigation__menu">
+          <ul>
+            <li class="site-navigation__item"><a
+                href="https://acuvera.com"
+                class="a site-navigation__link"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="site-navigation__menu">
+      <ul class="display-navigation__ul">
+        <li class="site-navigation__item tr-basic tr-basic--enter"><a href="index.html"
+            class="a site-navigation__link">Home
+          </a></li>
+        <li class="site-navigation__item tr-basic tr-basic--enter"><a href="about.html"
+            class="a site-navigation__link">About
+          </a></li>
+        <li class="site-navigation__item tr-basic tr-basic--enter"><a href="usecases.html"
+            class="a site-navigation__link">Use Cases
+          </a></li>
+        <li class="site-navigation__item tr-basic tr-basic--enter"><a href="contact.html"
+            class="a site-navigation__link">Contact
+
+          </a></li>
+      </ul><a href="contact.html" class="a site-navigation__link"></a>
+    </div><a href="contact.html" class="a site-navigation__link"></a>
+    <div id="mySidenav" class="sidenav"><a href="contact.html" class="a site-navigation__link"></a><a href="index.html"
+        data-json-url="https://acuvera.com" id="home_link" class="a site-navigation__link">Home</a> <a href="about.html"
+        data-json-url="https://acuvera.com/about.html" id="home_link" class="a site-navigation__link">About</a> <a
+        href="usecases.html" data-json-url="https://acuvera.com/usecases.html" id="projects_link"
+        class="a site-navigation__link">Use Cases</a> <a href="contact.html" data-json-url="https://acuvera.com/contact"
+        id="contacts_link" class="a site-navigation__link">Contact</a></div>
+    <p id="open_menu" onclick="openNav()" class="openMenu">Menu</p>
+    <p id="close-menu" onclick="closeNav()" class="closeMenu">Close</p>
+  </div>
+
+  <section class="video-modal">
+    <!-- Modal Content Wrapper -->
+    <div class="video-modal-content" id="video-modal-content">
+      <!-- iframe -->
+      <iframe allowfullscreen="" frameborder="0" height="100%" id="youtube" name="youtube" src="http://acuvera.com/"
+        width="100%"></iframe>
+      <a class="close-video-modal" href="#"></a>
+    </div>
+    <!-- end modal content wrapper -->
+    <!-- clickable overlay element -->
+    <div class="overlay"></div>
+  </section>
+  
+
+  <script
+    src="https://polyfill.io/v3/polyfill.min.js?features=Array.from%2CPromise%2CIntersectionObserver%2CElement.prototype.matches%2CElement.prototype.classList%2CArray.prototype.find">
+  </script>
+  <script src="http://acuvera.com/assets/js/app.js" async></script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+      document.getElementById("close-menu").style.display = "block";
+      document.getElementById("close-menu").style.color = "white";
+      document.getElementById("open_menu").style.display = "none"
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("open_menu").style.display = "block";
+      document.getElementById("close-menu").style.display = "none";
+    }
+  </script>
+
+  <script>
+    function nameSections() {
+      var myNodelist = document.querySelectorAll("section");
+      var i;
+      var j = "sect";
+      for (i = 0; i < myNodelist.length; i++) {
+        var k = j + "" + i;
+        myNodelist[i].setAttribute('id', k)
+      }
+      var video01 = document.getElementById("sect1");
+      sect1.innerHTML =
+        '<video id="acuvera_vat_video" class="video-js vjs-sublime-skin vjs-fill" controls preload="none" poster="assets/imgs/video_poster_main.svg"> <source src="assets/video/concept_acuvera.mp4" type="video/mp4" /></video>';
+      var linkvideo01 = document.querySelector("#sect3 .description");
+      linkvideo01.innerHTML =
+        '<a class="btn ho js-trigger-video-modal style__ButtonDefault-sc-1ikbu4z-0 style__ButtonPrimary-sc-1ikbu4z-1 fSNPfX dim" data-youtube-id="yov0ib6sgNQ" href="https://www.youtube.com/watch?v=yov0ib6sgNQ">Play Video</a>';
+      var linkvideo02 = document.querySelector("#sect4 .description");
+      linkvideo02.innerHTML = '<a href="https://www.acuvera.com/projects/banking.html#sect1">PLAY VIDEO > </a>';
+      var linkvideo03 = document.querySelector("#sect5 .description");
+      linkvideo03.innerHTML = '<a href="https://www.acuvera.com/projects/dutyfree.html#sect1">PLAY VIDEO > </a>';
+
+
+
+    }
+  </script>
+
+</body>
+
+</html>

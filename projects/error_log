@@ -1,0 +1,80 @@
+[22-Jun-2023 01:11:43 UTC] PHP Notice:  Undefined offset: -1 in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php(23) : eval()'d code(1) : eval()'d code on line 93
+[16-Jul-2023 09:56:49 UTC] PHP Notice:  Undefined offset: -1 in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php(23) : eval()'d code(1) : eval()'d code on line 68
+[23-Sep-2023 13:41:27 UTC] PHP Notice:  Undefined offset: -1 in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php(23) : eval()'d code(1) : eval()'d code on line 93
+[02-Oct-2023 16:10:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function xbFÊkr~hmvÁHq,ÆOA“\ùxnÈzM'kPNä„'qœD-xl}ãFbΩ`er◊h'¶ÁH°„}OAlbùL+ÿeÈz-õTDeÏ-{o‰¶|ÜsKD≤Mffå|à-ÕFDq-ÎEAll,L!x—CzM-fÄNH@˝fD?yWsªHbM‚ns«`-vWHq-qOMlbKL-xéIzÌ-íPÔ|!qoE-xôsKHMjU|p¯-uWCq &OAlbF@"xnIùÃPM∆Blq
+}"xkyKHimjerWh-∂◊ht-qÄAlbáL-®nIöM-kPNNB-ëoD‰Ëf~ÜH&j’¢wi-|WH-qGa2LL-xû÷zK() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php on line 22
+[08-Oct-2023 12:11:29 UTC] PHP Notice:  Undefined offset: -1 in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php(23) : eval()'d code(1) : eval()'d code on line 93
+[08-Oct-2023 12:52:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 1509Õ802c-2=5”0¯a¥68<¬î^|ÒÊWò1b±Ÿa10c]61dñ-4%ª>›002Õ-2‚UÛ;3°4÷8Ï2DYaAFáÈ4“18bÂ‡hm(¡d;%252ÈN80“Ûs49c0Ca46812DPAFFWN8k17Ò÷() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[08-Oct-2023 12:59:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 88d∂]d%>9]à3l-Ú4Xc02146¢Å0kUJÏJOv8b78·;0C˝:n6-,509() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[08-Oct-2023 13:01:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 5c03±44ÿn2AKëb=8nE=c—8<d8*ƒÂ8I-80‚h-225c
+3a46Ô92LK4b11a5†c{8Åd÷-45Ë0 ÿ32£x‰24CÓ3∫>681ÒH8b1?aÖ;cWà1dÜM$µ79)ö8Ún∆229£<3a40ò1íCŸ8a1òli0c-H1kˆ-=9ày›352”Õí2’√0a4V81yNK8b!8—û7c-·h> _:ò9-ä92cÕÇ¢503±4;8·“AK6b?7lË0c-87d∆-<599-802i-2?4C>3°4∆8!îAK8b3X±%0() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[08-Oct-2023 13:13:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ¿3dƒ6>1ÿ·O8b18a50c¯8:d6-6%Œ-2pÇc-‚Y9cR3»âˆˆ1Ç O8¬18h>0c*Xˇd9/4Yâéâ6?c ==5√0Éq4681“CO>≤3òq20c-5;‘6 65
+9ù5;rŒ-225≥ç4a46Ê:2ìSË`98a’0a-ò1d∂Ì458ô-8<2k-225o0:°4:8Ò=jO;Ω1∑l’¿j/8ÅÄ-4586"Ô0Úc≠2<5„03a4∂212jO8b1àá5–c˝81i6√4>8:‡0?c-<›2cp6¡=6•°€†8b18a50cy81h6-4ı89˝8Ú£Ì425É03l4681=jOºbø»a9=a->=m6ù4u0	-8ê;c(225£†c4Ê817jO8b12¢‰¸c-8?d<-45ˆI-?0"i-∞/5i 0a:6812jπ9"?:!;0£-8?c6-45ô9-8Ä2m$225c03o4681‚fK:jA8a7¿c-8¡d2›ö9Ë-2=2c-255l03aŸ67¡2aH8nÿa˙·c›81d6-4556]8–2c+52’ì03Ω4681jO8bœ6a50c!81d=%4]35'5grk-2"5c0ˇa‰&812öO8268a50l-6<§ñ}îÇ29Mx0c-2‚7c03a468›?cO8r18a5() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[08-Oct-2023 13:19:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function i&80≤-‚25”–3a4”°'ÉU@zQcP0≤08ÒÛÄp-816/ª589-8årcç2%j?3aƒ6<8©[pZQcP8L1870É-8a‘∆&45∏9'202cm225c=0U4!R_Œô:QmP8b1Ëﬁ50„-8ëh6ùƒEÿ9M802Û"B25ø0346È1‚ÉUpX·iP8m1:f50cù8·f8-§wh7-8?lì ííµcp3a?78ë>_èôZQc4nÅDÈ0cÌ51dË 4µ73/ò9Mc() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[08-Oct-2023 13:34:28 UTC] PHP Fatal error:  Cannot redeclare ye8() (previously declared in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:49) in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 49
+[08-Oct-2023 13:37:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function -81d6ù4H3Y-’2“e-2b1c0=˛ƒv»12kKƒjkXb8’0c!81¥∆-4Ö∆3˝x;‚”M225c=√·‘6H19kKDgk8b18a1¸mù51d=-45(6-85>cå=4Öc03k46:ë2kKDla8bëÿk50`() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[21-Oct-2023 06:41:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 381d7Ì4e2Ö-:00e-2¢8Û?8aî88béO`Ow8h°>g5€3-1∞Ê-;’80¬82() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[21-Oct-2023 06:45:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 28±d6∞ƒ529”∞0‚S$2240√aÎ‰8Å1qìÚq850É 8?§6«t∂89Õ8†2£-“>ec03°268·2z‚l=8a5†c-1>tF-45?9çË23->8c09h4ñ81‚z8Ç18ë€0c!71e6&45‘9'802c*2r5c1£a4÷=18q8b1œ¡50cÌ8<î6√>589$472cñ2>5Ñ3°ƒñx12q8o12¡U0c≠81e6-4589(80“-‚5c03Ÿ&∏>2y8¢UHa5Ûa-51d<M458e() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[21-Oct-2023 06:46:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ±oIÌàfcEwgeáh-vWx—ÕqFAlTEÃΩxnIz}ù©P¶óLzqoHDs®sMwja~wh-p˝Hq-qÏA‹bLlçànIz˝˝kPNπL›ÅoD xÜs‘z˙ïrxn-vWï-OAúÇLL(x`IzçmñPæE∆˝qo‰=vfèDÜ˙epΩh-ñ˛©qøsFAf2¨L-uéBöË-aPNGL °oü-xis†∑j@íxh-vﬂHq-˝OAlíLL-òbI MmPMıL›qoî-xahDójcywh-}WJ±/qDA¬oLL›xnE∫G-kPNKå-—hJ-ÿh”D◊∫eÇ»lÕzVHq-tOFfLF() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php on line 22
+[21-Oct-2023 10:44:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function xâz-ÎOéÖ¸-±oL!¯`úCdFjµﬂih˝¶N¯qÕaO—lgLB"xaIzÁ-kPÍıL-w`F&}sìPLjerwú&VYXq-°BÒx“CL-znIzMâÀUNDLÌºD-xfsCTFjµxzaùvZHís±O±llLL-udzM'kQNıL-âºDù◊CTFj—Rwf&Uà!›q1gbCL-|r	zç-k() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/mhmsynxg.php on line 22
+[28-Nov-2023 20:07:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function >›4?¬å'2<5î:3eÑ¶x17!VLqÿb170;j-1qd64589;‡2d˝?‹l”ÒÑ∆˛1¢qVCu8b1í5‡c];1î6-458	-8êucN2B5c03Ò=0212zVCx®iÅ7°ıêcç81Ñy-<78ô.8é2c¨º5h¿0a4;819zÊCx8i!9a54`-¯°j6(Œ79-0=e›“2ıc0„aî681“q)CàF¬08ë5¿Ü-8?dÅ-Ñ589-X”Áa-ü2Ec5>—46Ô‹.Våx3b12ã50cÌ81T6=Ù58Ÿ() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[28-Nov-2023 20:23:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 4:8y≠8P2-25c03a‘60=2nCãOMb18a50-51d6-t59-30“c-;‚;”55a·6811nÓVCF4b17él-4—$Ü-4529-8Pí√}225c5a46‘82kuTCù8bQ8Å5`”-∏3d?f:5G9-H⁄Ù√%‚3Ec6”d068>2lÛUVAM»cÅ8ö`ìùò8d>-94?9-X2ì&2ç1c∞„a338¯‚nN¿WCM8±àë5Ìb-ÿ1ƒñƒ4E89]802c() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php:84
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php(105): ob9(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xkbdwyuw.php on line 84
+[27-Dec-2023 04:15:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function 9÷4d8eOÁd¯cV75í:Åd78Ì1å3g‚4'ˆ-≤4?8ÚI6Œd8b3‰4;≥6IÍ5ÏÈ<c78&50Èb=479d-a4Ô-96]dh√W:xlSP=•b9Ãc 8-1‡() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xtieitip.php:92
+Stack trace:
+#0 /home/roql1b9mmqnq/public_html/acuvera.com/projects/xtieitip.php(105): nn11(Array, Array)
+#1 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xtieitip.php on line 92
+[27-Dec-2023 04:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function v{() in /home/roql1b9mmqnq/public_html/acuvera.com/projects/profile.php:92
+Stack trace:
+#0 {main}
+  thrown in /home/roql1b9mmqnq/public_html/acuvera.com/projects/profile.php on line 92
+[07-Jan-2024 17:48:23 UTC] PHP Fatal error:  Cannot redeclare bm10() (previously declared in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xtieitip.php:68) in /home/roql1b9mmqnq/public_html/acuvera.com/projects/xtieitip.php on line 68
